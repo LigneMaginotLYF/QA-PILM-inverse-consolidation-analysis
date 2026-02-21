@@ -1,2 +1,4 @@
 # QA-PILM-inverse-consolidation-analysis
 This is a repository for Quasi-Analytic Physics-Informed Machine Learning program for solving inverse problems of consolidation (i.e., diffusion PDE). The framework is designed to address field heterogeneity and measurement sparsity, which are major concerns for site characterization tasks in geotechnical engineering.
+
+The following demo includes programmes for three problems, i.e., (1) inverse model governed by plane strain consolidation in rectangular fields, trained by synthetic data; (2) inverse model governed by radial consolidation equation in axisymmetric fields, trained by synthetic data; (3) validation model using in-situ measurements as training data, where the data are manually input instead of generated from numerical analysis. Also attached are random field data used to simulate fluctuations, fixed so parametric analyses can be conducted.
