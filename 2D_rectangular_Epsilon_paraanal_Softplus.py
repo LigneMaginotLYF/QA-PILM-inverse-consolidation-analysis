@@ -10,7 +10,7 @@ import os
 from datetime import datetime
 
 # 0. Import external configurations. Except that this time we are considering a radial problem.
-filedir = 'F:/博/PINN 2D consoli practice/250827 - Hindered by illness/Relocated to Python/lib/'
+filedir = ' '
 filelist = ['rawSlistA-0.3sig-2by2.csv', 'Lmat-2by2.csv'] # Several files for generating and controlling randomness.
 rawS, Lmat = [], []
 varlist = [rawS, Lmat]
@@ -1168,5 +1168,6 @@ for j in [0]: # j is the length of the tasklist. For non-parametric use, set to 
 
     np.savetxt(fnlist[j],coefs,delimiter=',')
     coefs*=0
+
 
     print(f'{j} complete')
