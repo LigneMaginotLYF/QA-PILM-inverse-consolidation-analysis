@@ -9,7 +9,7 @@ import matplotlib.colors as colors
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 # 0. Import external configurations. Except that this time we are considering a radial problem.
-filedir = 'F:/博/PINN 2D consoli practice/250827 - Hindered by illness/Relocated to Python/lib/'
+filedir = ' ' # Modify the filepath.
 filelist = ['rawSlistA-0.3sig-2by2.csv', 'Lmat-2by2.csv'] # Several files for generating and controlling randomness.
 rawS, Lmat = [], []
 varlist = [rawS, Lmat]
@@ -1075,4 +1075,5 @@ for i in range(tasklist):
 
 
 np.savetxt('Epsilon_loss_iso_rad.csv', coefs, delimiter=',')
+
 #func_ruling_ring(chm,Rcv,ilim,u0,bcs,ukmat,chkmat,ukt,lam,lr,ltol,gtol,itol,mode,lamu)
