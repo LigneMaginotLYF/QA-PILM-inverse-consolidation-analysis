@@ -11,7 +11,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 from scipy.special import jv,yv
 
 # 0. Import external configurations. Except that this time we are considering a radial problem.
-filedir = 'F:/博/PINN 2D consoli practice/250827 - Hindered by illness/Relocated to Python/lib/'
+filedir = ' ' # Modify file path.
 filelist = ['rawSlistA-0.3sig-2by2.csv', 'Lmat-2by2.csv'] # Several files for generating and controlling randomness.
 rawS, Lmat = [], []
 varlist = [rawS, Lmat]
@@ -1063,4 +1063,5 @@ for i in range(tasklist):
 
 
 np.savetxt('Epsilon_realcase_rad0204.csv', coefs, delimiter=',')
+
 #func_ruling_ring(chm,Rcv,ilim,u0,bcs,ukmat,chkmat,ukt,lam,lr,ltol,gtol,itol,mode,lamu)
